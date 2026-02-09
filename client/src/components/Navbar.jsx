@@ -1,8 +1,22 @@
 import { Link } from "react-router-dom";
 import { LuSun, LuMoon, LuLogIn } from "react-icons/lu";
+import { useAppSelector } from "../hooks/useAppSelector";
+//import {useAppDispatch} from './hooks/useAppDispatch'
+
 
 
 const Navbar = () => {
+
+
+  
+  
+    const isAuthenticated = useAppSelector(
+      (state) => state.user.isAuthenticated
+    );
+  
+    console.log("AUTH STATE:", isAuthenticated);
+  
+
   return (
     <div className="navbar bg-base-100 shadow-md px-4">
       
