@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* DaisyUI theme config */
+@layer base {
+  :root {
+    --theme: light;
+  }
+}
+
