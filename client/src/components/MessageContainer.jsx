@@ -4,7 +4,7 @@ import User from "./ui/User";
 
 function MessageContainer() {
   return (
-    <div className="flex flex-col h-[100dvh] bg-gray-900 overflow-hidden font-sans antialiased relative text-gray-100">
+    <div className="flex flex-col h-dvh bg-gray-900 overflow-hidden font-sans antialiased relative text-gray-100">
       
       {/* 1. Header with Dark Glass Effect */}
       {/* Changed: bg-white -> bg-gray-900, border-gray-100 -> border-gray-800 */}
